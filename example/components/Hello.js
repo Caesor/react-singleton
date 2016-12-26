@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Singleton from 'react-singleton'
+import Singleton from '../../index'
 
 class Hello extends Component {
     state = {
