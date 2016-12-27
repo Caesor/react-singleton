@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Singleton from '../../dist/singleton.min.js'
+import Singleton from '../../dist'
 
 class Hello extends Component {
     state = {
@@ -13,5 +13,6 @@ class Hello extends Component {
         )
     }
 }
+console.log(Singleton);
 
 export default new Singleton(Hello)
