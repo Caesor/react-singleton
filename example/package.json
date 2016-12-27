@@ -20,6 +20,6 @@
   "dependencies": {
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "react-singleton": "^1.1.0"
+    "react-singleton": "^1.2.0"
   }
 }
