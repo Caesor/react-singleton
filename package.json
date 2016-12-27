@@ -1,6 +1,6 @@
 {
   "name": "react-singleton",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Rending a singleton react component in DOM",
   "main": "index.js",
   "scripts": {
