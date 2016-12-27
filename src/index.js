@@ -1,4 +1,4 @@
-import React from 'react'
+import react from 'react'
 import { render, unmountComponentAtNode } from 'react-dom'
 
 export default class Singleton {

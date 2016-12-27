@@ -4,7 +4,11 @@
   "description": "Rending a singleton react component in DOM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:umd & npm run build:umd:min",
+    "build:umd": "webpack dist/singleton.js",
+    "build:umd:min": "NODE_ENV=production webpack dist/singleton.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
