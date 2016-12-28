@@ -1,11 +1,11 @@
 # react-singleton
 
 ## Demo
-You can find example in folder **example**
+You can find example in folder [example](https://github.com/Caesor/react-singleton/tree/master/example)
 
 ## Usage with React
 
-### 1、Install  the package
+### 1、Install the package
 `npm install react-singleton --save`
 
 ### 2、Import component
@@ -23,7 +23,7 @@ class Alert extends Component {...}
 export default new Singleton(Alert)
 ```
 
-###4、Using as you need
+###4、Using as your need
 ```
 // Example 1:
 
